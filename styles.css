@@ -1,0 +1,104 @@
+/* formateo de la pagina */
+body {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    /* para que tenga la misma altura de la pantalla */
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 500px;
+}
+#photo {
+    width: 350px;
+    height: 280px;
+    padding-bottom: 12px;
+}
+.html5 {
+    color: black;
+}
+
+.head a {
+ font-size: 35px;
+}
+.trespuntos {
+    color: black;
+    padding-left: 220px;
+}
+.head {
+    display: flex;
+    position: relative;    
+}
+.text h1, .text p {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+
+}
+h1 {
+    font-weight: bold;
+    padding-top: 0;
+    margin-block-end: 0;
+    margin-block-start: 5px;
+    font-family: "Roboto", sans-serif;
+
+}
+header a i {
+    padding: 10px;
+}
+.text p {
+    margin-block-start: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* article icon */
+.left {
+    font-size: 25px;
+    display: inline;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.right {
+    font-size: 25px;
+    display: inline;
+    padding: 0px 10px 0 210px;
+}
+/* .right i {
+    float: right; 
+}*/
+.icon {
+}
+
+/* footer text*/
+
+footer p {
+    font-size: 11px;
+    font-family: "Roboto", sans-serif;
+
+}
+.negrito {
+    font-weight: bold;
+}
+.lorem {
+    text-align: justify;
+    padding: 0 10px 10px 10px;
+}
+
+.likes {
+    padding-left: 10px;
+    padding-top: 0; 
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+.coloricon {color: black;}
